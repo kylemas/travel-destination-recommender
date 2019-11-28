@@ -70,7 +70,7 @@ call_check_budget(B,C) :-
 get(Countryrecs) :-
 	write("Enter list of countries you have been to (ex. [canada, japan, philippines]): "),
 	read(L),
-  write("Enter 0 = get all continents; 'abcd' to search for specific continent: "),
+  write("Enter 0 = get all continents; 'Asia', 'Europe', 'NAmerica', 'Africa' to search for specific continent: "),
 	read(N),
 	write("Enter 0 = if you have no weather preference; 1 = tropical; 2 = Cold, Winter weather; 3 = mild, cloudy or sunny weather: "),
 	read(W),
