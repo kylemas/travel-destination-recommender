@@ -233,24 +233,30 @@ check_budget('>=4',C) :-
 % Asian Countries
 info(china, 'Asia', 3, 2, ['food', 'culture', 'spicy', 'dimsum']).
 info(sKorea, 'Asia', 3, 1, ['beauty', 'food', 'fashion']).
-info(malaysia, 'Asia', 1, 1, ['food', 'culture', 'tropical', 'Southeast Asia']).
-info(singapore, 'Asia', 1, 2, ['food', 'culture', 'tropical', 'Southeast Asia']).
-info(indonesia, 'Asia', 1, 1, ['food', 'culture', 'tropical', 'Southeast Asia', 'beach']).
-info(philippines, 'Asia', 1, 1,  ['food', 'culture', 'tropical', 'Southeast Asia', 'beach']).
-info(brunei, 'Asia', 1, 1,  ['culture', 'outdoors', 'tropical', 'Southeast Asia']).
+info(malaysia, 'Asia', 1, 1, ['food', 'culture', 'tropical']).
+info(singapore, 'Asia', 1, 2, ['food', 'culture', 'tropical']).
+info(indonesia, 'Asia', 1, 1, ['food', 'culture', 'tropical', 'beach']).
+info(philippines, 'Asia', 1, 1,  ['food', 'culture', 'tropical', 'beach']).
+info(brunei, 'Asia', 1, 1,  ['culture', 'outdoors', 'tropical',]).
 info(japan, 'Asia', 3, 2, ['food', 'culture', 'sushi', 'fashion', 'shopping']).
-info(russia, 'Asia', 2, 3, ['cold', 'culture']).
 info(kazakhstan, 'Asia', 2, 3,  ['cold', 'culture']).
 info(india, 'Asia', 1, 1, ['food', 'hot', 'spices']).
 info(hongKong, 'Asia', 1, 2, ['shopping', 'finance', ]).
 info(thailand, 'Asia', 1, 1, ['tropical', 'spice', 'food']).
 info(taiwan, 'Asia', 1, 1, ['food', 'night market']).
-
+info(myanmar, 'Asia', 1, 1, ['culture', 'historic']).
+info(nepal, 'Asia', 2, 2, ['culture', 'mountains', 'outdoors']).
+info(cambodia, 'Asia', 1, 1,  ['food', 'culture', 'tropical', 'beach']).
+info(bhutan, 'Asia', 2, 3,  ['remote', 'culture', 'mountains', 'outdoors']).
+info(maldives, 'Asia', 1, 4,  ['beach', 'food', 'wildlife', 'marinelife']).
 
 % North American courses
 info(usa, 'NAmerica', 3, 2, ['outdoors', 'city']).
 info(canada, 'NAmerica', 2, 2, ['safe', 'friendly', 'cold', 'wildlife', 'natural']).
 info(mexico, 'NAmerica', 1, 1, ['warm', 'beaches']).
+info(honduras, 'NAmerica', 1, 1, ['warm', 'beaches', 'tropical']).
+info(bahamas, 'NAmerica', 1, 2, ['warm', 'beaches', 'tropical']).
+info(martinique, 'NAmerica', 1, 1, ['warm', 'beaches', 'troppical', 'culture']).
 
 
 % South American Countries
@@ -268,9 +274,12 @@ info(zimbabwe, 'Africa', 3, 3, ['wildlife', 'explore', 'nature', 'animals']).
 info(kenya, 'Africa', 1, 3, ['wildlife', 'nature']).
 info(nigeria, 'Africa', 1, 2, ['culture', 'beaches']).
 
-
 % European Countries
 info(france, 'Europe', 3, 3, ['romantic', 'food', 'culinary']).
+info(italy, 'Europe', 3, 3, ['romantic', 'food', 'culinary', 'pasta']).
+info(belgium, 'Europe', 3, 2, ['food', 'culinary']).
+info(bulgaria, 'Europe', 3, 1, ['affordable', 'historic', 'culture']).
+info(russia, 'Europe', 2, 3, ['cold', 'culture']).
 info(uk, 'Europe', 3, 3, ['academics']).
 info(germany, 'Europe', 3, 3, ['beer']).
 info(spain, 'Europe', 1, 2, ['food', 'culture']).
